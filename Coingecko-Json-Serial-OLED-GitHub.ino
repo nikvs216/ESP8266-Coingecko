@@ -59,7 +59,7 @@ WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "0.uk.pool.ntp.org", 3600, 60000);
 
 // Modify your API URL/string to retrieve coin prices of your choosing.  Check out: https://www.coingecko.com/en/api#explore-api
-#define CG_URL "https://api.coingecko.com/api/v3/simple/price?ids=verasity%2Cbitcoin%2Ccardano%2Cenjincoin%2Cripple%2Clivepeer&vs_currencies=gbp%2Cusd&include_last_updated_at=true&include_24hr_change=true"
+#define CG_URL "https://api.coingecko.com/api/v3/simple/price?ids=litecoin&vs_currencies=eur&include_last_updated_at=true&include_24hr_change=true"
 
 // SSL SHA-1 Fingerprint may be retrieved from your browser. e.g. for Chrome, Right-click the Padlock inthe address bar, select Certificate.
 // Expand Details, scroll down to Fingerprints, copy the 20-byte SHA-1 key and paste below
